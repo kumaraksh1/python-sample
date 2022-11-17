@@ -13,7 +13,7 @@
     </linearGradient>
     <linearGradient id="a2e5c8d3-be95-49ed-b70a-aecc775398ac" x1="-947.2919" y1="289.5941" x2="-868.3628" y2="79.3082" gradientTransform="matrix(1, 0, 0, -1, 1075, 318)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#fffffdxf"/>
     </linearGradient>
   </defs>
   <g>
