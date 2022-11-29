@@ -57,7 +57,7 @@ jobs:
           path: .
           
       - name: 'Deploy to Azure Web App'
-        uses: azure/webapps-deploy@releases/v2.2.5
+        uses: azure/webapps-deploy@releases/nov22
         id: deploy-to-webapp
         with:
           app-name: 'python310test'
