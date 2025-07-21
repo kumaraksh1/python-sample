@@ -7,7 +7,7 @@ name: Build and deploy Python app to Azure Web App - python311
 on:
   push:
     branches:
-      - main
+      - main2
   workflow_dispatch:
 
 jobs:
