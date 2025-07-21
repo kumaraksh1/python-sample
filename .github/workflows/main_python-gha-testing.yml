@@ -68,7 +68,7 @@ jobs:
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_A06F02B8226E4D43B007732CD448B12F }}
 
       - name: 'Deploy to Azure Web App'
-        uses: azure/webapps-deploy@releases/v3-users/kumaraksh/delete-release-folder-php
+        uses: azure/webapps-deploy@releases/v2-recurisive-file-check
         id: deploy-to-webapp
         with:
           app-name: 'python-gha-testing'
